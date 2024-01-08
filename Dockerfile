@@ -6,7 +6,7 @@ RUN apk add --no-cache \
 
 WORKDIR /dorkscout
 
-RUN go install github.com/chaki070/dorkscout
+RUN go install github.com/chaki070/dorkscout@latest
 RUN dorkscout install -o .
 
 
