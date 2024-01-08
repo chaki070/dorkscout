@@ -4,6 +4,7 @@ RUN apk update
 RUN apk add --no-cache \
         libc6-compat
 
+
 WORKDIR /dorkscout
 
 RUN go install github.com/chaki070/dorkscout@latest
