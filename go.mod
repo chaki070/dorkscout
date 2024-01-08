@@ -1,5 +1,4 @@
-module github.com/R4yGM/dorkscout
-
+module github.com/chaki070/dorkscout
 go 1.16
 
 require (
