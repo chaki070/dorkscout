@@ -3,8 +3,8 @@ package cmd
 import (
         "bufio"
         "context"
-        res "github.com/R4yGM/dorkscout/results"
-        googlesearch "github.com/R4yGM/dorkscout/search"
+        res "github.com/chaki070/dorkscout/results"
+        googlesearch "github.com/chaki070/dorkscout/search"
         "fmt"
         "github.com/spf13/cobra"
         "log"
